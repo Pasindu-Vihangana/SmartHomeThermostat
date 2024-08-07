@@ -14,6 +14,13 @@
 		902BD5C02C5E8EAC001D8DDB /* SmartHomeThermostatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BD5BF2C5E8EAC001D8DDB /* SmartHomeThermostatTests.swift */; };
 		902BD5CA2C5E8EAC001D8DDB /* SmartHomeThermostatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BD5C92C5E8EAC001D8DDB /* SmartHomeThermostatUITests.swift */; };
 		902BD5CC2C5E8EAC001D8DDB /* SmartHomeThermostatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BD5CB2C5E8EAC001D8DDB /* SmartHomeThermostatUITestsLaunchTests.swift */; };
+		902BD5DD2C5E9AFA001D8DDB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BD5DC2C5E9AFA001D8DDB /* Extensions.swift */; };
+		905C46A42C5FF6FC00F6454F /* ThermostatScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905C46A32C5FF6FC00F6454F /* ThermostatScaleView.swift */; };
+		90835B372C5FBC2C00D6A21F /* ThermostatPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90835B362C5FBC2C00D6A21F /* ThermostatPlaceholderView.swift */; };
+		90835B392C5FD0E000D6A21F /* ThermostatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90835B382C5FD0E000D6A21F /* ThermostatView.swift */; };
+		90835B3B2C5FD44E00D6A21F /* ThermostatDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90835B3A2C5FD44E00D6A21F /* ThermostatDialView.swift */; };
+		90835B3D2C5FE85E00D6A21F /* ThermostatSummeryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90835B3C2C5FE85E00D6A21F /* ThermostatSummeryView.swift */; };
+		90EBC6572C5F7E960072DD07 /* ClimateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EBC6562C5F7E960072DD07 /* ClimateCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		902BD5C52C5E8EAC001D8DDB /* SmartHomeThermostatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHomeThermostatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		902BD5C92C5E8EAC001D8DDB /* SmartHomeThermostatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeThermostatUITests.swift; sourceTree = "<group>"; };
 		902BD5CB2C5E8EAC001D8DDB /* SmartHomeThermostatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeThermostatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		902BD5DC2C5E9AFA001D8DDB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		905C46A32C5FF6FC00F6454F /* ThermostatScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatScaleView.swift; sourceTree = "<group>"; };
+		90835B362C5FBC2C00D6A21F /* ThermostatPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatPlaceholderView.swift; sourceTree = "<group>"; };
+		90835B382C5FD0E000D6A21F /* ThermostatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatView.swift; sourceTree = "<group>"; };
+		90835B3A2C5FD44E00D6A21F /* ThermostatDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatDialView.swift; sourceTree = "<group>"; };
+		90835B3C2C5FE85E00D6A21F /* ThermostatSummeryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatSummeryView.swift; sourceTree = "<group>"; };
+		90EBC6562C5F7E960072DD07 /* ClimateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +108,17 @@
 		902BD5AD2C5E8EAA001D8DDB /* SmartHomeThermostat */ = {
 			isa = PBXGroup;
 			children = (
+				902BD5DC2C5E9AFA001D8DDB /* Extensions.swift */,
 				902BD5AE2C5E8EAA001D8DDB /* SmartHomeThermostatApp.swift */,
 				902BD5B02C5E8EAA001D8DDB /* ContentView.swift */,
 				902BD5B22C5E8EAC001D8DDB /* Assets.xcassets */,
+				90EBC6562C5F7E960072DD07 /* ClimateCard.swift */,
+				90835B362C5FBC2C00D6A21F /* ThermostatPlaceholderView.swift */,
+				90835B3C2C5FE85E00D6A21F /* ThermostatSummeryView.swift */,
+				90835B3A2C5FD44E00D6A21F /* ThermostatDialView.swift */,
+				90835B382C5FD0E000D6A21F /* ThermostatView.swift */,
 				902BD5B42C5E8EAC001D8DDB /* Preview Content */,
+				905C46A32C5FF6FC00F6454F /* ThermostatScaleView.swift */,
 			);
 			path = SmartHomeThermostat;
 			sourceTree = "<group>";
@@ -257,7 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				905C46A42C5FF6FC00F6454F /* ThermostatScaleView.swift in Sources */,
 				902BD5B12C5E8EAA001D8DDB /* ContentView.swift in Sources */,
+				90835B392C5FD0E000D6A21F /* ThermostatView.swift in Sources */,
+				90EBC6572C5F7E960072DD07 /* ClimateCard.swift in Sources */,
+				902BD5DD2C5E9AFA001D8DDB /* Extensions.swift in Sources */,
+				90835B3B2C5FD44E00D6A21F /* ThermostatDialView.swift in Sources */,
+				90835B372C5FBC2C00D6A21F /* ThermostatPlaceholderView.swift in Sources */,
+				90835B3D2C5FE85E00D6A21F /* ThermostatSummeryView.swift in Sources */,
 				902BD5AF2C5E8EAA001D8DDB /* SmartHomeThermostatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,9 +447,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SmartHomeThermostat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4S632X8MX9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -430,6 +459,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,9 +478,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SmartHomeThermostat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4S632X8MX9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,6 +490,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
